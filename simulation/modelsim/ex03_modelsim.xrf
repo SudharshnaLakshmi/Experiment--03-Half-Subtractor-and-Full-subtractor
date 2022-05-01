@@ -1,0 +1,10 @@
+vendor_name = ModelSim
+source_file = 1, D:/DE/ex03.v
+source_file = 1, D:/DE/db/ex03.cbx.xml
+design_name = ex03
+instance = comp, \Diff~output , Diff~output, ex03, 1
+instance = comp, \Borrow~output , Borrow~output, ex03, 1
+instance = comp, \A~input , A~input, ex03, 1
+instance = comp, \B~input , B~input, ex03, 1
+instance = comp, \comb~0 , comb~0, ex03, 1
+instance = comp, \comb~1 , comb~1, ex03, 1

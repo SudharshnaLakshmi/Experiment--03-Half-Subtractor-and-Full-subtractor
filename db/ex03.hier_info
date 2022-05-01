@@ -1,0 +1,13 @@
+|ex03
+A => Diff.IN0
+A => Borrow.IN1
+B => Diff.IN1
+B => Borrow.IN0
+B => Borrow.IN0
+C => Diff.IN1
+C => Borrow.IN1
+C => Borrow.IN1
+Diff <= Diff.DB_MAX_OUTPUT_PORT_TYPE
+Borrow <= Borrow.DB_MAX_OUTPUT_PORT_TYPE
+
+

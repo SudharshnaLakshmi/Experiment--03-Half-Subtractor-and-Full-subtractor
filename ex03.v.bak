@@ -1,0 +1,8 @@
+module ex03(A,B,diff,borrow);
+input A,B;
+output diff,borrow;
+wire X;
+xor(diff,A,B);
+not(X,A);
+and(borow,X,B);
+endmodule
