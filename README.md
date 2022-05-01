@@ -66,6 +66,7 @@ endmodule
 
 ## Timing diagram 
 ![Output](./timing%201.png)
+
 ## Full Subtractor
 
 ## Truthtable
